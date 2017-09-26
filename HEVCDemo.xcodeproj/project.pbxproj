@@ -12,6 +12,8 @@
 		7C40E31C1F7A95630067D40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C40E31A1F7A95630067D40D /* Main.storyboard */; };
 		7C40E31E1F7A95630067D40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C40E31D1F7A95630067D40D /* Assets.xcassets */; };
 		7C40E3211F7A95630067D40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C40E31F1F7A95630067D40D /* LaunchScreen.storyboard */; };
+		7C7A6A5C1F7A972000C62B53 /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A6A5B1F7A972000C62B53 /* FrameExtractor.swift */; };
+		7C7A6A5E1F7A9A8800C62B53 /* VideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A6A5D1F7A9A8800C62B53 /* VideoWriter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7C40E31D1F7A95630067D40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C40E3201F7A95630067D40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C40E3221F7A95630067D40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7A6A5B1F7A972000C62B53 /* FrameExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
+		7C7A6A5D1F7A9A8800C62B53 /* VideoWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoWriter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				7C40E31D1F7A95630067D40D /* Assets.xcassets */,
 				7C40E31F1F7A95630067D40D /* LaunchScreen.storyboard */,
 				7C40E3221F7A95630067D40D /* Info.plist */,
+				7C7A6A5B1F7A972000C62B53 /* FrameExtractor.swift */,
+				7C7A6A5D1F7A9A8800C62B53 /* VideoWriter.swift */,
 			);
 			path = HEVCDemo;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7A6A5E1F7A9A8800C62B53 /* VideoWriter.swift in Sources */,
+				7C7A6A5C1F7A972000C62B53 /* FrameExtractor.swift in Sources */,
 				7C40E3191F7A95630067D40D /* ViewController.swift in Sources */,
 				7C40E3171F7A95630067D40D /* AppDelegate.swift in Sources */,
 			);
